@@ -1,19 +1,17 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ template "test-app.fullname" . }}
+  name: {{ template "docmagui.fullname" . }}
   labels:
-    app: {{ template "test-app.name" . }}
-    chart: {{ template "test-app.chart" . }}
+    app: {{ template "docmagui.name" . }}
+    chart: {{ template "docmagui.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
-  type: {{ .Values.service.type }}
   ports:
     - port: {{ .Values.service.port }}
-      targetPort: http
       protocol: TCP
       name: http
   selector:
-    app: {{ template "test-app.name" . }}
+    app: {{ template "docmagui.name" . }}
     release: {{ .Release.Name }}

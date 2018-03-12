@@ -1,31 +1,50 @@
 apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
-  name: {{ template "test-app.fullname" . }}
+  name: {{ template "docmagui.fullname" . }}
   labels:
-    app: {{ template "test-app.name" . }}
-    chart: {{ template "test-app.chart" . }}
+    app: {{ template "docmagui.name" . }}
+    chart: {{ template "docmagui.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      app: {{ template "test-app.name" . }}
+      app: {{ template "docmagui.name" . }}
       release: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: {{ template "test-app.name" . }}
+        app: {{ template "docmagui.name" . }}
         release: {{ .Release.Name }}
     spec:
       containers:
+      - env:
+        - name: DOCUMENT_ROOT
+          value: {{ .Values.environment.documentRoot }}
+        - name: ELASTICSEARCH_CLUSTER
+          value: docmag-cluster
+        - name: ELASTICSEARCH_HOST
+          value: elasticsearch
+        - name: ELASTICSEARCH_PORT
+          value: "9300"
+        - name: AUTH_USERNAME
+          valueFrom:
+            secretKeyRef:
+              name: docmagui-secret
+              key: username
+        - name: AUTH_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: docmagui-secret
+              key: password
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: 80
+              containerPort: 8080
               protocol: TCP
           livenessProbe:
             httpGet:
