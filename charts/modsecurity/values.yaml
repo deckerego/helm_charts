@@ -8,7 +8,7 @@ image:
 service:
   type: ClusterIP
   port: 80
-  externalIP: 10.200.160.56
+  externalIP: 127.0.0.1
 
 resources:
   requests:

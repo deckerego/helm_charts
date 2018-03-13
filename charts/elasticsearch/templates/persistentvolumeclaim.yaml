@@ -14,4 +14,5 @@ spec:
     requests:
       storage: {{ .Values.volumes.esdata01.storage }}
   selector:
-    name: "esdata01"
+    matchLabels:
+      volume: esdata01

@@ -6,13 +6,13 @@ image:
   pullPolicy: Always
 
 jvm:
-  ms: "512m"
-  mx: "1g"
+  ms: "1024m"
+  mx: "1535m"
 
 resources:
   requests:
     cpu: "2000m"
-    memory: "2560Mi"
+    memory: "2Gi"
 
 volumes:
   document:

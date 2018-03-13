@@ -5,11 +5,13 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: scanneddoc
+  labels:
+    volume: scanneddoc
 spec:
   accessModes:
   - ReadOnlyMany
   capacity:
     storage: 400Gi
   nfs:
-    server: nfs.localhost
+    server: nfs.local
     path: "/home/documents"
