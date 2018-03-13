@@ -1,18 +1,18 @@
 replicaCount: 1
 
 image:
-  repository: deckerego/docmagui
+  repository: deckerego/docidx
   tag: latest
   pullPolicy: Always
 
-service:
-  type: ClusterIP
-  port: 8080
+jvm:
+  ms: "512m"
+  mx: "1g"
 
 resources:
   requests:
-    cpu: "500m"
-    memory: "512Mi"
+    cpu: "2000m"
+    memory: "2560Mi"
 
 volumes:
   document:
