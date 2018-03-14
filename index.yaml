@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   docmag:
   - apiVersion: v1
+    appVersion: 0.4.6
+    created: 2018-03-13T23:41:47.563211179-04:00
+    description: The DocMag web user interface
+    digest: 0208fb5a93d71f066e93925e056b6334f6450de0dc4561e56e611a6096721654
+    home: https://github.com/deckerego/docmag/wiki
+    name: docmag
+    urls:
+    - http://127.0.0.1:8879/docmag-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
     appVersion: 0.4.5
-    created: 2018-03-12T22:36:53.802012283-04:00
+    created: 2018-03-13T23:41:47.562564806-04:00
     description: The DocMag web user interface
     digest: 159c527c8febf56da556691644f737225a2eaf35901ddc77271481f60baa26f5
     home: https://github.com/deckerego/docmag/wiki
@@ -11,4 +21,4 @@ entries:
     urls:
     - http://127.0.0.1:8879/docmag-0.1.0.tgz
     version: 0.1.0
-generated: 2018-03-12T22:36:53.798918145-04:00
+generated: 2018-03-13T23:41:47.560203114-04:00
