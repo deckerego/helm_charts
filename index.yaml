@@ -3,7 +3,7 @@ entries:
   docidx:
   - apiVersion: v1
     appVersion: 0.4.6
-    created: 2018-03-15T22:21:12.382830426-04:00
+    created: 2018-03-18T22:37:16.549246577-04:00
     description: File crawler that feeds the full-text index
     digest: 7241460ce644d62daadbe9fee194aefa231a461e3dc767394557ff590864a25a
     name: docidx
@@ -13,7 +13,17 @@ entries:
   docmag:
   - apiVersion: v1
     appVersion: 0.4.6
-    created: 2018-03-15T22:21:12.385750989-04:00
+    created: 2018-03-18T22:37:16.552678097-04:00
+    description: The DocMag web user interface
+    digest: 0ae9b69235b7cd6524d62977c5871163b39383a988d60c182fc575f726fc66c7
+    home: https://github.com/deckerego/docmag/wiki
+    name: docmag
+    urls:
+    - docmag-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v1
+    appVersion: 0.4.6
+    created: 2018-03-18T22:37:16.551964303-04:00
     description: The DocMag web user interface
     digest: 0fc71c4c590c7ee9edd70f6772a8616ac42f3a62f187dad4cfb7542232636bfb
     home: https://github.com/deckerego/docmag/wiki
@@ -23,7 +33,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 0.4.6
-    created: 2018-03-15T22:21:12.384987127-04:00
+    created: 2018-03-18T22:37:16.551239944-04:00
     description: The DocMag web user interface
     digest: 4bb6e978e31dc9e92b3f6fe881a7920ade9105693ef01e881ea6f74971952c3f
     home: https://github.com/deckerego/docmag/wiki
@@ -33,7 +43,7 @@ entries:
     version: 0.2.1
   - apiVersion: v1
     appVersion: 0.4.6
-    created: 2018-03-15T22:21:12.384349238-04:00
+    created: 2018-03-18T22:37:16.550596677-04:00
     description: The DocMag web user interface
     digest: 0208fb5a93d71f066e93925e056b6334f6450de0dc4561e56e611a6096721654
     home: https://github.com/deckerego/docmag/wiki
@@ -43,7 +53,7 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.4.5
-    created: 2018-03-15T22:21:12.383638704-04:00
+    created: 2018-03-18T22:37:16.549964058-04:00
     description: The DocMag web user interface
     digest: 159c527c8febf56da556691644f737225a2eaf35901ddc77271481f60baa26f5
     home: https://github.com/deckerego/docmag/wiki
@@ -54,11 +64,11 @@ entries:
   modsecurity:
   - apiVersion: v1
     appVersion: latest
-    created: 2018-03-15T22:21:12.386024327-04:00
+    created: 2018-03-18T22:37:16.552895476-04:00
     description: Web application firewall for DocMag UI
     digest: 6d77f95a7fcaa1a5b7bacc6a23f3bea731f65348b38a42823e51f0cd1df4597c
     name: modsecurity
     urls:
     - modsecurity-0.3.0.tgz
     version: 0.3.0
-generated: 2018-03-15T22:21:12.382060565-04:00
+generated: 2018-03-18T22:37:16.548693907-04:00
