@@ -3,7 +3,27 @@ entries:
   docidx:
   - apiVersion: v1
     appVersion: 0.4.6
-    created: 2018-03-29T22:47:30.21467285-04:00
+    created: 2018-04-11T20:53:21.001270672-04:00
+    description: File crawler that feeds the full-text index
+    digest: cda95229b87942fa3aff44f2d1d0a14faf338afc226006ce8d7b986440d2aa51
+    home: https://github.com/deckerego/docidx/wiki
+    name: docidx
+    urls:
+    - docidx-0.4.15.tgz
+    version: 0.4.15
+  - apiVersion: v1
+    appVersion: 0.4.6
+    created: 2018-04-11T20:53:21.000816376-04:00
+    description: File crawler that feeds the full-text index
+    digest: 45e6cf370f71ba8c5827ee2d008b8aedd027ebbc3356913c9269a1b8c85a5cd3
+    home: https://github.com/deckerego/docidx/wiki
+    name: docidx
+    urls:
+    - docidx-0.4.13.tgz
+    version: 0.4.13
+  - apiVersion: v1
+    appVersion: 0.4.6
+    created: 2018-04-11T20:53:21.000348916-04:00
     description: File crawler that feeds the full-text index
     digest: 2548f7a98e628c169b670c6d5375e1a2685ae56ae332a19711871f217c26e14e
     home: https://github.com/deckerego/docidx/wiki
@@ -13,7 +33,7 @@ entries:
     version: 0.4.11
   - apiVersion: v1
     appVersion: 0.4.6
-    created: 2018-03-29T22:47:30.214220411-04:00
+    created: 2018-04-11T20:53:20.999864743-04:00
     description: File crawler that feeds the full-text index
     digest: 8e331fe3aeba6b4544244e76a50f25ae91c61b33996d913cb13b71272f23d810
     name: docidx
@@ -23,7 +43,27 @@ entries:
   docmag:
   - apiVersion: v1
     appVersion: 0.4.10
-    created: 2018-03-29T22:47:30.216800417-04:00
+    created: 2018-04-11T20:53:21.00582013-04:00
+    description: The DocMag web user interface
+    digest: aa49da6d2352acd9477bb93e25e84f7fcc75fef70090adc7a2a30c657469517a
+    home: https://github.com/deckerego/docmag/wiki
+    name: docmag
+    urls:
+    - docmag-0.4.15.tgz
+    version: 0.4.15
+  - apiVersion: v1
+    appVersion: 0.4.10
+    created: 2018-04-11T20:53:21.005109419-04:00
+    description: The DocMag web user interface
+    digest: 68171a6e8622780ec593a4f8ccf04044c76d3274eb36949e2c6aaddbbb7ff09c
+    home: https://github.com/deckerego/docmag/wiki
+    name: docmag
+    urls:
+    - docmag-0.4.14.tgz
+    version: 0.4.14
+  - apiVersion: v1
+    appVersion: 0.4.10
+    created: 2018-04-11T20:53:21.00340945-04:00
     description: The DocMag web user interface
     digest: b824800538236708af935502b6fc3a3f64cd6ca81a476e712c69787b120bb0fd
     home: https://github.com/deckerego/docmag/wiki
@@ -33,7 +73,7 @@ entries:
     version: 0.4.13
   - apiVersion: v1
     appVersion: 0.4.10
-    created: 2018-03-29T22:47:30.216053044-04:00
+    created: 2018-04-11T20:53:21.002694681-04:00
     description: The DocMag web user interface
     digest: 99a6f4e00fe7cc26bc15053bb5acf7526472c0859fb8cc103a682e9b0faf5232
     home: https://github.com/deckerego/docmag/wiki
@@ -43,7 +83,7 @@ entries:
     version: 0.4.12
   - apiVersion: v1
     appVersion: 0.4.10
-    created: 2018-03-29T22:47:30.215382036-04:00
+    created: 2018-04-11T20:53:21.001956737-04:00
     description: The DocMag web user interface
     digest: 3a6a6158e21a4685162e66775813a7e324666888e0b8826b6b25c24cc64c45e6
     home: https://github.com/deckerego/docmag/wiki
@@ -53,7 +93,7 @@ entries:
     version: 0.4.11
   - apiVersion: v1
     appVersion: 0.4.9
-    created: 2018-03-29T22:47:30.217451993-04:00
+    created: 2018-04-11T20:53:21.006459192-04:00
     description: The DocMag web user interface
     digest: e0eb2f3e2c0ea6b168e5270d0c97c876b370ca1e97c9deb695207fffd9912b77
     home: https://github.com/deckerego/docmag/wiki
@@ -61,4 +101,4 @@ entries:
     urls:
     - docmag-0.4.5.tgz
     version: 0.4.5
-generated: 2018-03-29T22:47:30.213472731-04:00
+generated: 2018-04-11T20:53:20.999118729-04:00
